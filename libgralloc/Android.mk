@@ -21,7 +21,7 @@ LOCAL_MODULE                  := gralloc.$(TARGET_BOARD_PLATFORM)
 LOCAL_MODULE_RELATIVE_PATH    := hw
 LOCAL_VENDOR_MODULE           := true
 LOCAL_MODULE_TAGS             := optional
-LOCAL_SHARED_LIBRARIES        := $(common_libs) libmemalloc libqdMetaData
+LOCAL_SHARED_LIBRARIES        := $(common_libs) libmemalloc libqdMetaData libhardware
 LOCAL_SHARED_LIBRARIES        += libqdutils libGLESv1_CM
 LOCAL_CFLAGS                  := $(common_flags) -DLOG_TAG=\"qdgralloc\" -Wno-sign-conversion
 LOCAL_CLANG                   := true
